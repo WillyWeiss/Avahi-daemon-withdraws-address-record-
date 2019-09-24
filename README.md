@@ -52,3 +52,27 @@ Sep 24 16:47:47 MyHostName avahi-daemon[380]: Registering new address record for
 Sep 24 16:47:47 MyHostName dhclient[4487]: bound to 192.168.0.13 -- renewal in 41664 seconds.
 
 </code>
+
+# Install
+
+<code>sudo git clone https://github.com/WillyWeiss/-Avahi-daemon-withdraws-address-record-.git</code>
+
+# Usage
+
+Make it Executable
+
+<code>sudo chmod +x isc-dhcp-fix.sh</code>
+
+Run 
+
+<code>./isc-dhcp-fix.sh</code>
+
+# Place the script in auto-run
+
+<code> 
+ sudo cp isc-dhcp-fix.sh /usr/bin/isc-dhcp-fix.sh
+ sudo nano /etc/rc/local
+  
+ </code>
+ 
+ Add ' /usr/bin/isc-dhcp-fix.sh' before ''exit0''
