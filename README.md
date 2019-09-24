@@ -71,6 +71,7 @@ Run
 
 <code> 
  sudo cp isc-dhcp-fix.sh /usr/bin/isc-dhcp-fix.sh
+ 
  sudo nano /etc/rc/local
   
  </code>
