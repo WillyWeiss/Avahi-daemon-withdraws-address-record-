@@ -23,6 +23,8 @@ Sep 24 16:47:46 MyHostName avahi-daemon[380]: Interface eth0.IPv4 no longer rele
 This script is monitoring the presence of an IPv4 address over the given card and if the IP is missing the script will realocate a valid IP address.
 The script is monitoring 'eth0' only, by default, but it can perform an entire system check if necessary. 
 Just uncomment 'Card1' or create more 'Cards"
+
+
 In order to add more cards you need to:
 
 -Copy Card0 object;
